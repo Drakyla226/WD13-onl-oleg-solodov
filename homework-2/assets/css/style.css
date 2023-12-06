@@ -77,6 +77,12 @@ body {
     height: 92px;
 }
 
+.conteiner-block__item--iconimg{
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+}
+
 .conteiner-block__item--h4 {
     color: #000;
     text-align: center;
