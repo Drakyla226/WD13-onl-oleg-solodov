@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Raleway:wght@100;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pricing{
+    background-color: #F5F5F5;
+    padding-top: 104px;
+    padding-bottom: 50px;
+}
+
+.container-pricing {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-pricing-h2 {
+    position: relative;
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: 54px;
+    margin-bottom: 40px;
+}
+
+.container-pricing-h2::after {
+    position: absolute;
+    right: calc(50% - 85px);
+    content: "";
+    bottom: 0;
+    background: #EC7979;
+    width: 170px;
+    height: 1px;
+}
+
+.container-pricing-h3 {
+    color: #86878B;
+
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 59px;
+}
+
+.pricing-price {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.pricing-price__item {
+    width: 370px;
+    padding-top: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.pricing-price__item:hover{
+    padding: 0;
+    transition: all .3s ease-in-out;
+}
+
+.pricing-price__item--name {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    background: #333333;
+    padding: 20px 0;
+    border: 1px solid #F5F5F5;
+}
+
+.pricing-price__item--price {
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #333333;
+    padding: 37px 0;
+    border: 1px solid #F5F5F5;
+}
+
+.pricing-price__item--info {
+    color: #86878B;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    border: 1px solid #F5F5F5;
+    background-color: #fff;
+    padding: 14px 0;
+}
+
+.pricing-price__item--info_black{
+    background: #333333;
+    text-transform: none;
+}
