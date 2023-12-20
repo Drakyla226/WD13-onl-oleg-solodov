@@ -63,6 +63,7 @@ body {
 .container-sm__icon--item {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 70px;
     height: 70px;
     color: #86878B;
@@ -202,7 +203,6 @@ body {
     padding-bottom: 28px;
     gap: 33px;
 }
-
 
 .footer-icon__svg svg {
     width: 53px;
