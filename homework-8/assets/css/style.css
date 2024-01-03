@@ -29,9 +29,9 @@
 }
 
 .grid__item {
-    width: 100%;
     border: 5px solid blue;
     background-color: white;
+    text-align: center;
 }
 
 .grid-1 {
