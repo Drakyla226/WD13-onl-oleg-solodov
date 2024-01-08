@@ -1,1 +1,1 @@
-https://delightful-kataifi-855af5.netlify.app
+https://wonderful-genie-3380f8.netlify.app
