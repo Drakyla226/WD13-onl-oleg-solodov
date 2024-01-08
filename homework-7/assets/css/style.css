@@ -901,10 +901,6 @@ main::before {
     grid-gap: 50px 20px;
 }
 
-.form-input {
-    width: 571px;
-}
-
 .form-input input {
     width: 100%;
 }
